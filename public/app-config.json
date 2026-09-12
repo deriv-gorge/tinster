@@ -1,1 +1,12 @@
-{"styles":{"tradeType":"a","symbol":"a","tick":"a","digitStats":"a","contractMode":"a","stake":"a","duration":"a","prediction":"a","buy":"a"},"order":["tradeType","symbol","tick","digitStats","contractMode","stake","duration","prediction","buy"],"buy":{"pinned":true}}
+{
+  "symbol": "1HZ100V",
+  "symbols": ["1HZ100V", "R_100", "R_50", "R_25", "R_10", "BOOM1000", "BOOM500", "CRASH1000", "CRASH500", "frxEURUSD", "frxGBPUSD", "frxUSDJPY"],
+  "tradeTypes": ["CALL", "PUT", "DIGITOVER", "DIGITUNDER", "DIGITMATCH", "DIGITDIFF", "DIGITEVEN", "DIGITODD", "ACCU"],
+  "tradeType": "CALL",
+  "stake": 5,
+  "duration": 5,
+  "growthRate": 0.03,
+  "prediction": 7,
+  "layout": ["symbol", "tradeType", "prediction", "stake", "duration", "buy"],
+  "pinned": true
+}
